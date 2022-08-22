@@ -1,0 +1,535 @@
+/* global */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+/* header */
+
+.header__top{
+    background-color: black;
+    color: white;
+}
+
+.header__container{
+    margin: 0 auto;
+    width: 80%;
+    padding: 15px 0;
+}
+
+.header__top .header__top-text span:first-child{
+    margin-right: 50px;
+}
+
+.header__top-text{
+    float: left;
+}
+
+.header__top-icons{
+    float: right;
+}
+
+.header__top-icons a{
+    text-decoration: none;
+    color: white;
+}
+
+.header__top-icons i{
+    font-size: 1.125rem;
+    margin-left: 30px;
+}
+
+.header__main{
+    margin: 0 auto;
+    width: 80%;
+    padding: 30px 0;
+}
+
+.header__main img{
+    float: left;
+}
+
+.header__main nav{
+    float: right;
+}
+
+.header__main nav ul{
+    list-style-type: none;
+    line-height: 36px;
+}
+
+.header__main nav li{
+    display: inline;
+    margin-left: 40px;
+}
+
+.header__main nav a{
+    text-decoration: none;
+    color: #102955; 
+    font-size: 0.9375rem;
+    font-weight: 700;
+}
+
+/* carousel */
+
+.carousel{
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.carousel__container{
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
+}
+
+.carousel__left, .carousel__right{
+    float: left;
+}
+
+.carousel__left{
+    width: 30%;
+    margin-top:100px;
+    color: white;
+}
+
+.carousel__left h1{
+    font-size: 4.875rem;
+    font-weight: 200;
+    line-height: 85px;
+    margin-bottom: 4px;
+}
+
+.carousel__left h1 span{
+    font-weight: 700;
+}
+
+.carousel__left p{
+    margin: 12px 0 50px;
+    font-size: 1rem;
+    line-height: 32px;
+}
+
+.carousel__left button{
+    padding: 17px 50px;
+    color: #ff3500;
+    border: 1px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.carousel__left button:hover{
+    color: white;
+    background-color: #ff3500;
+    border: 1px solid #ff3500;
+}
+
+.carousel__right{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: -76px;
+}
+
+.carousel__right img{
+    width: 100%;
+}
+
+/* services */
+
+.services{
+    padding: 241px 0 106px;
+    text-align: center;
+}
+
+.services__container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.services__title h1{
+    font-size: 3.125rem;
+    color: #191d34;
+    font-weight: 300;
+}
+
+.services__title p{
+    font-size: 1rem;
+    color: #909092;
+    line-height: 30px;
+}
+
+.services__content{
+    margin-top: 90px;
+}
+
+.services__item{
+    float: left;
+    width: calc(100%/3);
+    padding: 10px;
+}
+
+.services__item h2{
+    font-size: 1.5625rem;
+    margin: 43px 0 22px;
+    font-weight: 600;
+}
+
+.services__item p{
+    font-size: 1.125rem;
+    color: #909092;
+    line-height: 30px;
+    font-weight: 400    ;
+}
+
+.services__background{
+    border: 1px solid #ffc5c2;
+    padding: 70px 25px 65px 25px;
+    border-radius: 10px;
+}
+
+.services__img{
+    background-image: url(../img/service_icon_bg_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 160px ;    
+    height: 140px;
+    padding: 35px 0;
+    margin: auto;
+    
+}
+
+/* pet */
+
+.pet{
+    padding: 73px 0 24px;
+    /* text-align: center; */
+}
+
+.pet__container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.pet__img{
+    float: left;
+    width: 40%;
+}
+
+.pet__content{
+    float: left;
+    width: 60%;
+    padding: 100px 70px 150px 130px;
+}
+
+.pet__img img{
+    width: 100%;
+}
+
+.pet__content h1{
+    font-size: 3.125rem;
+    font-weight: 300;
+}
+
+.pet__content span{
+    font-weight: 800;
+}
+
+.pet__content p{
+    font-size: 1.125rem;
+    margin: 30px 0 54px;
+    color: #66666f;
+    line-height: 30px;
+}
+
+.pet__content button{
+    padding: 17px 50px;
+    color: white;
+    font-size: 1rem;
+    background-color: #ff3500;
+    border: 1px solid #ff3500;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.pet__content button:hover{
+    color: #ff3500;
+    background-color:white;
+}
+
+/* help */
+
+.help__container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.help__left, .help__right{
+    float: left;
+    width: 50%;
+}
+
+.help__col1,.help__col2{
+    float: left;
+    width: 50%;
+}
+
+.help__left{
+    padding: 100px 30px;
+}
+
+.help__left h1{
+    font-size: 3.125rem;
+    font-weight: 300;
+}
+
+.help__left span{
+    font-weight: 800;
+}
+
+.help__left p{
+    font-size: 1.125rem;
+    margin: 30px 0 54px;
+    color: #66666f;
+    line-height: 30px;
+}
+
+.help__left button{
+    padding: 17px 50px;
+    color: white;
+    font-size: 1rem;
+    background-color: #ff3500;
+    border: 1px solid #ff3500;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.help__left button:hover{
+    color: #ff3500;
+    background-color:white;
+}
+
+.help__col1{
+    padding: 150px 15px;
+}
+
+.help__col2{
+    padding: 0 15px;
+}
+
+.help__item {
+    padding:40px 40px 33px 40px;
+    border: 1px solid rgb(0, 0, 2, 0.08);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.help__item h3{
+    font-size: 3.75rem;
+    margin: 22px 0 2px;
+}
+
+.help__item p{
+    font-size: 1.25rem;
+    color: #808080;
+}
+
+.help__col2 .help__item{
+    margin-bottom: 40px;
+}
+
+/* team */
+
+.team{
+    padding: 125px 0 200px;
+    text-align: center;
+}
+
+.team__container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.team__title{
+    width: 50%;
+    margin: 0 auto 90px;
+}
+
+.team__title h2{
+    font-size: 3.125rem;
+    color: #191d34;
+    font-weight: 300;
+}
+
+.team__title p{
+    font-size: 1rem;
+    color: #909092;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.team__item{
+    float: left;
+    width: calc(100%/3);
+    padding: 0 15px;
+    position: relative;
+}
+
+.team__item img{
+    width: 100%;
+}
+
+.team__title1{
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    left: 0;
+}
+
+.team__titlemain{
+    padding: 16px 40px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 2,0.08);
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.team__titlemain h3{
+    font-size: 1.125rem;
+    color: #222222;
+}
+
+.team__titlemain p{
+    font-size: 0.875rem;
+    color: #7a7b7c;
+}
+
+/* contact */
+
+.contact{
+    padding: 170px 0 160px;
+    text-align: center;
+    background-image: url(../img/contact_bg.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.contact__container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.contact__container h1{
+    font-size: 3.125rem;
+    color: white;
+}
+
+.contact__container p{
+    font-size: 1.5625rem;
+    color: white;
+    margin: 35px 0 50px;
+    line-height: 40px;
+}
+
+.contact__info button{
+    padding: 17px 50px;
+    color: #ff3500;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid #ff3500;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.contact__info button:hover{
+    color: white;
+    background-color:#ff3500;
+}
+
+.contact__info span{
+    color: white;
+    font-size: 1.125rem;
+    margin: 0 10px;
+}
+
+.contact__info a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    font-size: 1.125rem;
+    margin: 0 0 0 10px;
+}
+
+.footer__container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.footer__top{
+    padding: 130px 0 110px;
+}
+
+.footer__item{
+    float: left;
+    width: calc(100%/4);
+}
+
+.footer__item ul{
+    list-style: none;
+}
+
+.footer__item a{
+    text-decoration: none;
+    color: #7a7a7a;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.footer__item h2{
+    font-size: 1.5625rem;
+    font-weight: 400;
+    color: black;
+    margin: 0 0 36px;
+}
+
+.footer__item p{
+    margin: 35px 0 0    ;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #7a7a7a;
+}
+
+.footer__icons{
+    margin-top: 20px;
+}
+
+.footer__item i{
+    font-size: 1rem;
+    color: #7a7a7a;
+    margin: 0 20px 0 0;
+}
+
+.footer__bottom{
+    padding:30px 0 32px;
+    border-top:1px solid #e0e0e0;
+}
+
+.footer__bottom p{
+    font-size: 1.125rem;
+    color: #888;
+}
